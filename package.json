@@ -1,0 +1,39 @@
+{
+  "name": "dsh-chinese-talk",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "涓枃鎬濊€冿細璁╂墍鏈変細璇濈殑鎬濊€冿紙thinking锛変笌浜や粯鐢ㄤ腑鏂団€斺€旂畝娲併€佺暐娌炬枃瑷€銆佽浜鸿瘽锛涗笓鏈夊悕璇嶄繚鐣欒嫳鏂囧師褰€侫ll sessions think and answer in Chinese, terse and a little wry, keeping proper nouns in English.",
+  "license": "MIT",
+  "author": "xz",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "chinese",
+    "system-prompt",
+    "persona"
+  ],
+  "meta": {
+    "title": "DSH-Chinese-Talk",
+    "description": "让所有会话都用中文思考与回复，专有名词保留英文原形"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tianlaoban/DSH-Chinese-Talk.git"
+  },
+  "homepage": "https://github.com/tianlaoban/DSH-Chinese-Talk",
+  "bugs": {
+    "url": "https://github.com/tianlaoban/DSH-Chinese-Talk/issues"
+  }
+}

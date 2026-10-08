@@ -1,0 +1,11 @@
+# Bundle patch for dsh-chinese-talk.
+#
+# This is what makes the package a PROFILE LAYER rather than an inert
+# dependency: a dependency whose manifest declares `dsh.bundle.patch`
+# (package.json) joins the layer stack, and this insert row mounts it.
+#
+# To turn the rule off without uninstalling, add `disabled: true` to the row
+# below (or override it from the profile's own cordis.patch.yml by id).
+- insert:
+    - id: dsh-chinese-talk
+      name: dsh-chinese-talk
